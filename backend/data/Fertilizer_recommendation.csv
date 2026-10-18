@@ -1,0 +1,45 @@
+N,P,K,temperature,humidity,moisture,soil_type,crop_type,fertilizer
+90,42,43,20.87,82.00,55.0,sandy,rice,Vermicompost + Cow Dung Mix
+85,58,41,21.77,80.31,60.0,loamy,rice,Vermicompost + Neem Cake
+60,55,44,23.00,82.33,65.0,clay,maize,Vermicompost + Wood Ash
+74,35,40,26.49,80.15,50.0,sandy,cotton,Farm Yard Manure + Bone Meal
+78,42,42,20.13,81.60,55.0,loamy,wheat,Farm Yard Manure + Compost
+69,37,42,23.49,82.54,60.0,clay,sugarcane,Green Manure + Compost
+79,42,41,24.45,80.64,65.0,sandy,cotton,Vermicompost + Neem Cake
+85,58,41,21.77,80.31,50.0,loamy,rice,Farm Yard Manure + Wood Ash
+60,55,44,23.00,82.33,55.0,clay,maize,Green Manure + Bone Meal
+74,35,40,26.49,80.15,60.0,sandy,cotton,Vermicompost + Compost
+78,42,42,20.13,81.60,65.0,loamy,wheat,Farm Yard Manure + Neem Cake
+69,37,42,23.49,82.54,50.0,clay,sugarcane,Green Manure + Wood Ash
+81,45,43,22.90,82.40,55.0,sandy,rice,Vermicompost + Bone Meal
+76,40,42,21.77,83.11,60.0,loamy,wheat,Farm Yard Manure + Compost
+94,38,43,23.09,82.87,65.0,clay,sugarcane,Green Manure + Neem Cake
+71,36,41,22.52,81.60,50.0,sandy,maize,Vermicompost + Wood Ash
+85,45,40,24.39,81.60,55.0,loamy,cotton,Farm Yard Manure + Bone Meal
+83,46,42,23.48,81.86,60.0,clay,rice,Green Manure + Compost
+92,43,43,24.20,82.87,65.0,sandy,wheat,Vermicompost + Neem Cake
+72,39,41,23.00,82.33,50.0,loamy,maize,Farm Yard Manure + Wood Ash
+88,41,43,20.13,81.60,55.0,clay,rice,Green Manure + Bone Meal
+76,35,40,26.49,80.15,60.0,sandy,cotton,Vermicompost + Compost
+81,45,43,22.90,82.40,65.0,loamy,wheat,Farm Yard Manure + Neem Cake
+94,38,43,23.09,82.87,50.0,clay,sugarcane,Green Manure + Wood Ash
+65,45,40,25.0,70.0,55.0,sandy,tomato,Vermicompost + Fish Meal
+70,50,45,22.0,75.0,60.0,loamy,potato,Farm Yard Manure + Bone Meal
+75,40,35,28.0,65.0,65.0,clay,chili,Green Manure + Neem Cake
+80,45,40,24.0,70.0,50.0,sandy,brinjal,Vermicompost + Cow Dung Mix
+85,50,45,26.0,75.0,55.0,loamy,okra,Farm Yard Manure + Compost
+90,45,40,27.0,70.0,60.0,clay,cucumber,Green Manure + Bone Meal
+95,40,35,25.0,65.0,65.0,sandy,pumpkin,Vermicompost + Wood Ash
+100,45,40,23.0,70.0,50.0,loamy,beans,Farm Yard Manure + Neem Cake
+105,50,45,24.0,75.0,55.0,clay,peas,Green Manure + Compost
+110,45,40,26.0,70.0,60.0,sandy,carrot,Vermicompost + Bone Meal
+115,40,35,22.0,65.0,65.0,loamy,radish,Farm Yard Manure + Wood Ash
+120,45,40,25.0,70.0,50.0,clay,cauliflower,Green Manure + Neem Cake
+125,50,45,27.0,75.0,55.0,sandy,cabbage,Vermicompost + Compost
+130,45,40,24.0,70.0,60.0,loamy,spinach,Farm Yard Manure + Bone Meal
+135,40,35,26.0,65.0,65.0,clay,lettuce,Green Manure + Wood Ash
+140,45,40,23.0,70.0,50.0,sandy,onion,Vermicompost + Neem Cake
+145,50,45,25.0,75.0,55.0,loamy,garlic,Farm Yard Manure + Compost
+150,45,40,27.0,70.0,60.0,clay,ginger,Green Manure + Bone Meal
+155,40,35,22.0,65.0,65.0,sandy,turmeric,Vermicompost + Wood Ash
+160,45,40,24.0,70.0,50.0,loamy,coriander,Farm Yard Manure + Neem Cake 

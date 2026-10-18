@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "370097289536",
+    "firebase_url": "https://fir-demo-a9487-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-demo-a9487",
+    "storage_bucket": "fir-demo-a9487.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370097289536:android:208b5ebb5eb50a4e34e2a5",
+        "android_client_info": {
+          "package_name": "com.example.soil_analyzer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXj6eI2EZWVLP_UNhM4tXGV72pPrTJD-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370097289536:android:48dfa71bb839d0e734e2a5",
+        "android_client_info": {
+          "package_name": "com.example.soil_nutrition"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXj6eI2EZWVLP_UNhM4tXGV72pPrTJD-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

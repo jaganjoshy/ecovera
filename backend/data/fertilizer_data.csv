@@ -1,0 +1,70 @@
+N,P,K,temperature,humidity,moisture,fertilizer
+90,42,43,20.8,82.0,80.0,Cow Dung Manure
+85,58,41,21.8,80.3,75.0,Cow Dung Manure
+60,55,44,23.0,82.1,70.0,Cow Dung Manure
+74,35,40,26.3,80.1,65.0,Cow Dung Manure
+78,42,42,20.1,81.6,60.0,Cow Dung Manure
+90,42,43,20.8,82.0,80.0,Compost
+85,58,41,21.8,80.3,75.0,Compost
+60,55,44,23.0,82.1,70.0,Compost
+74,35,40,26.3,80.1,65.0,Compost
+78,42,42,20.1,81.6,60.0,Compost
+90,42,43,20.8,82.0,80.0,Vermicompost
+85,58,41,21.8,80.3,75.0,Vermicompost
+60,55,44,23.0,82.1,70.0,Vermicompost
+74,35,40,26.3,80.1,65.0,Vermicompost
+78,42,42,20.1,81.6,60.0,Vermicompost
+90,42,43,20.8,82.0,80.0,Green Manure
+85,58,41,21.8,80.3,75.0,Green Manure
+60,55,44,23.0,82.1,70.0,Green Manure
+74,35,40,26.3,80.1,65.0,Green Manure
+78,42,42,20.1,81.6,60.0,Green Manure
+90,42,43,20.8,82.0,80.0,Neem Cake
+85,58,41,21.8,80.3,75.0,Neem Cake
+60,55,44,23.0,82.1,70.0,Neem Cake
+74,35,40,26.3,80.1,65.0,Neem Cake
+78,42,42,20.1,81.6,60.0,Neem Cake
+90,42,43,20.8,82.0,80.0,Bone Meal
+85,58,41,21.8,80.3,75.0,Bone Meal
+60,55,44,23.0,82.1,70.0,Bone Meal
+74,35,40,26.3,80.1,65.0,Bone Meal
+78,42,42,20.1,81.6,60.0,Bone Meal
+90,42,43,20.8,82.0,80.0,Wood Ash
+85,58,41,21.8,80.3,75.0,Wood Ash
+60,55,44,23.0,82.1,70.0,Wood Ash
+74,35,40,26.3,80.1,65.0,Wood Ash
+78,42,42,20.1,81.6,60.0,Wood Ash
+90,42,43,20.8,82.0,80.0,Fish Meal
+85,58,41,21.8,80.3,75.0,Fish Meal
+60,55,44,23.0,82.1,70.0,Fish Meal
+74,35,40,26.3,80.1,65.0,Fish Meal
+78,42,42,20.1,81.6,60.0,Fish Meal
+90,42,43,20.8,82.0,80.0,Cow Dung + Compost Mix
+85,58,41,21.8,80.3,75.0,Cow Dung + Compost Mix
+60,55,44,23.0,82.1,70.0,Cow Dung + Compost Mix
+74,35,40,26.3,80.1,65.0,Cow Dung + Compost Mix
+78,42,42,20.1,81.6,60.0,Cow Dung + Compost Mix
+90,42,43,20.8,82.0,80.0,Vermicompost + Neem Cake Mix
+85,58,41,21.8,80.3,75.0,Vermicompost + Neem Cake Mix
+60,55,44,23.0,82.1,70.0,Vermicompost + Neem Cake Mix
+74,35,40,26.3,80.1,65.0,Vermicompost + Neem Cake Mix
+78,42,42,20.1,81.6,60.0,Vermicompost + Neem Cake Mix
+90,42,43,20.8,82.0,80.0,Green Manure + Bone Meal Mix
+85,58,41,21.8,80.3,75.0,Green Manure + Bone Meal Mix
+60,55,44,23.0,82.1,70.0,Green Manure + Bone Meal Mix
+74,35,40,26.3,80.1,65.0,Green Manure + Bone Meal Mix
+78,42,42,20.1,81.6,60.0,Green Manure + Bone Meal Mix
+90,42,43,20.8,82.0,80.0,Compost + Wood Ash Mix
+85,58,41,21.8,80.3,75.0,Compost + Wood Ash Mix
+60,55,44,23.0,82.1,70.0,Compost + Wood Ash Mix
+74,35,40,26.3,80.1,65.0,Compost + Wood Ash Mix
+78,42,42,20.1,81.6,60.0,Compost + Wood Ash Mix
+90,42,43,20.8,82.0,80.0,Cow Dung + Neem Cake Mix
+85,58,41,21.8,80.3,75.0,Cow Dung + Neem Cake Mix
+60,55,44,23.0,82.1,70.0,Cow Dung + Neem Cake Mix
+74,35,40,26.3,80.1,65.0,Cow Dung + Neem Cake Mix
+78,42,42,20.1,81.6,60.0,Cow Dung + Neem Cake Mix
+90,42,43,20.8,82.0,80.0,Vermicompost + Fish Meal Mix
+85,58,41,21.8,80.3,75.0,Vermicompost + Fish Meal Mix
+60,55,44,23.0,82.1,70.0,Vermicompost + Fish Meal Mix
+74,35,40,26.3,80.1,65.0,Vermicompost + Fish Meal Mix 
