@@ -3,6 +3,7 @@ import '../services/auth_service.dart';
 import '../services/soil_service.dart';
 import 'package:provider/provider.dart';
 import 'login_screen.dart';
+import 'sensor_sync_screen.dart';
 
 class AnalysisScreen extends StatefulWidget {
   const AnalysisScreen({super.key});
@@ -295,7 +296,10 @@ This texture indicates the soil's physical properties and its capacity to retain
                           color: Colors.grey,
                         ),
                       ),
-                      const SizedBox(height: 24),
+                      const SizedBox(height: 16),
+                      // ── Sensor Sync Button ──────────────────────
+                      _buildSensorSyncButton(),
+                      const SizedBox(height: 20),
                       GridView.count(
                         crossAxisCount: 2,
                         mainAxisSpacing: 12,
@@ -355,6 +359,78 @@ This texture indicates the soil's physical properties and its capacity to retain
               if (hasResults) _buildResultsCard(),
             ],
           ),
+        ),
+      ),
+    );
+  }
+
+  // ── Sensor Sync Button ─────────────────────────────────────────
+  Widget _buildSensorSyncButton() {
+    return GestureDetector(
+      onTap: () async {
+        final reading = await showSensorSyncSheet(context);
+        if (reading != null && mounted) {
+          setState(() {
+            _nitrogenController.text    = reading.nitrogen.toStringAsFixed(1);
+            _phosphorusController.text  = reading.phosphorus.toStringAsFixed(1);
+            _potassiumController.text   = reading.potassium.toStringAsFixed(1);
+            _temperatureController.text = reading.temperature.toStringAsFixed(1);
+            _humidityController.text    = reading.humidity.toStringAsFixed(1);
+            _moistureController.text    = reading.moisture.toStringAsFixed(1);
+            _phController.text          = reading.ph.toStringAsFixed(1);
+          });
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: const Row(
+                children: [
+                  Icon(Icons.check_circle, color: Colors.white),
+                  SizedBox(width: 10),
+                  Text('7 sensor values synced! Tap Analyze to predict.'),
+                ],
+              ),
+              backgroundColor: Colors.green[700],
+              duration: const Duration(seconds: 3),
+              behavior: SnackBarBehavior.floating,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            ),
+          );
+        }
+      },
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 16),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Colors.blue.shade800, Colors.blue.shade600],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(14),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.blue.withOpacity(0.3),
+              blurRadius: 8,
+              offset: const Offset(0, 4),
+            )
+          ],
+        ),
+        child: const Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.sensors, color: Colors.white, size: 22),
+            SizedBox(width: 10),
+            Text(
+              'Sync from NPK Sensor Module',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 0.5,
+              ),
+            ),
+            SizedBox(width: 8),
+            Icon(Icons.bluetooth, color: Colors.white70, size: 18),
+          ],
         ),
       ),
     );
